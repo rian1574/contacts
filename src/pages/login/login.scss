@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+page-login {
+
+	.bg {
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(160deg, #a90329 30%,#8f0222 50%,#6d0019 70%);
+	}
+
+	.header {
+		position: absolute;
+		display: block;
+		color: #FFF;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+	}
+
+	.header h1 {
+		font-size: 7vh; 
+		font-size: lighter;
+		font-family: 'Oswald', cursive; 
+	}
+	.inputs {
+		position: absolute;
+		display: block;
+		top: 58%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 80%;
+	}
+
+	ion-item {
+		background: transparent;D
+		ion-input{
+			color: #6d0019!important;
+		}
+		.item-inner{
+			border: 0px solid;
+		}
+	}
+	button{
+		position:absolute; 
+		display:block;
+		top:50%;
+		background: #0072ff!important;
+		box-shadow:0px;
+		color:#fff!important; 
+	}
+}

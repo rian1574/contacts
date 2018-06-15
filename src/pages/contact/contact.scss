@@ -1,0 +1,45 @@
+page-contact {
+
+	#bg {
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(160deg, #a90329 30%, #8f0222 50%, #6d0019 70%);
+	}
+
+	.inputs {
+		position: absolute;
+		display: block;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 80%;
+		color: #000;
+	}
+
+	ion-item {
+		background: transparent;
+		border: 1px solid  #000;
+		ion-input{
+			color: #000;
+		}
+		ion-input placeholder{
+			color: #000;
+		}
+		ion-label{
+			color: #000;
+		}
+		.item-inner{
+			border: 1px;
+		}
+	}
+
+	button {
+		position:absolute; 
+		display:block;
+		top:50%;
+		background:#000;
+		border: 1px solid  #fff;
+		box-shadow:0px;
+		color:#000; 
+	}
+}

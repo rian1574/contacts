@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color= "cima">
+    <ion-title >CONTATOS</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center>
+  <div id="bg">
+   <ion-list>
+        <ion-item *ngFor="let d of dados">
+          <h2>
+            <b>{{ d.nome }}</b>
+          </h2>
+          <h3>
+            <b>Tipo de Telefone:</b> {{ d.tipo }}
+          </h3>
+          <h3>
+            <b>Número:</b> {{ d.telefone }}
+          </h3>
+        </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

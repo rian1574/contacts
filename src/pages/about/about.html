@@ -1,0 +1,26 @@
+<ion-header>
+	<ion-navbar color="cima">
+		<ion-title>NOVO CONTATO</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content text-center>
+	<div class="bg">
+	<div class="inputs">
+		<ion-list>
+			<ion-item>
+				<ion-input type="text" placeholder="Nome" [(ngModel)]="contato.nome"></ion-input>
+			</ion-item>
+			<ion-item>
+				<ion-input placeholder="Tipo de Telefone" [(ngModel)]="contato.tipo"></ion-input>
+			</ion-item>
+			<ion-item>
+				<ion-input type="number" placeholder="Número" [(ngModel)]="contato.telefone"></ion-input>
+			</ion-item>
+		</ion-list>
+		<div class="topButtons">
+			<button ion-button (click)="criarContato(contato)" block><b>Salvar</b></button>
+		</div>
+	</div>
+	</div>
+</ion-content>
